@@ -1,8 +1,8 @@
 resources:
-  - name: sample-script
+  - name: sample-script-test
     type: gitRepo
-    integration: sreyaj-github
+    integration: gh
     pointer:
-      sourceName: sreyaj/sample-script
+      sourceName: qhstest01/sample-script-test
       branch: master
 
