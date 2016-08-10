@@ -1,8 +1,8 @@
 jobs:
-  - name: script-somerandom12
+  - name: script-testing-job1
     type: runSh
     steps:
-      - IN: sample-script
+      - IN: sample-script-test
       - IN: triggertest1
       - TASK:
-        - script: IN/sample-script/gitRepo/echo.sh
+        - script: IN/sample-script-test/gitRepo/echo.sh
